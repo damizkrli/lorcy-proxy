@@ -3,6 +3,9 @@
 Une application simple, rapide et gratuite pour créer vos proxys de cartes à collectionner.  
 Collez votre liste, donnez un nom de deck, et obtenez vos cartes prêtes à imprimer.
 
+[![Lien GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/damizkrli/lorcy-proxy)
+[![Lien GitLab](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white)](https://gitlab.com/damiz/lorcy-proxy)
+
 ---
 
 ## 📦 Fonctionnalités principales
