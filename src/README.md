@@ -66,9 +66,8 @@ Version actuelle : **v0.1**
 
 ---
 
-## 🪶 Remerciements
-
-Merci aux communautés de joueurs et aux contributeurs anonymes pour leurs retours et idées d’amélioration.  
+## 🪶 Contributions
+  
 Toute contribution (design, UX, code ou documentation) est la bienvenue.
 
 ---
