@@ -199,7 +199,7 @@ class LorcanaApp(tk.Tk):
         )
         self.reset_btn.grid(row=0, column=1, padx=20)
 
-        # Footer élégant et complet
+        # Footer
         cards = load_dataset()
         today = datetime.now().strftime("%d %B %Y").capitalize()
         footer_text = (

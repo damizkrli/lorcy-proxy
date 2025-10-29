@@ -3,11 +3,9 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-# Base du projet (mode script) = dossier parent de "src"
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 def _frozen_base() -> Path:
-    # En mode PyInstaller, les fichiers sont extraits dans _MEIPASS
     base = getattr(sys, "_MEIPASS", None)
     return Path(base) if base else PROJECT_ROOT
 
@@ -24,9 +22,7 @@ def resource_path(*parts: str) -> Path:
 APP_TITLE = "LORCY"
 APP_AUTHOR = "Damien Carli"
 
-# On LIT seulement la version (pas d'auto-incrément en binaire)
 def _read_version() -> str:
-    # On cherche d'abord à côté du binaire (PyInstaller), sinon au projet
     for candidate in (resource_path("version.txt"), PROJECT_ROOT / "version.txt"):
         try:
             txt = candidate.read_text(encoding="utf-8").strip()

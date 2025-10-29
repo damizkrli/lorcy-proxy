@@ -4,10 +4,8 @@ from pathlib import Path
 def get_base_dir() -> Path:
     """Retourne le dossier racine du projet, compatible PyInstaller."""
     if getattr(sys, "frozen", False):
-        # Exécution depuis le .exe (PyInstaller)
         return Path(sys._MEIPASS)
     else:
-        # Exécution depuis le code source
         return Path(__file__).resolve().parent.parent
 
 BASE_DIR = get_base_dir()
