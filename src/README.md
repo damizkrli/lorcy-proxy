@@ -70,13 +70,6 @@ Toute contribution (design, UX, code ou documentation) est la bienvenue.
 
 ---
 
-## 📸 Capture d’écran
-
-
-
-
----
-
 ## ⚙️ Développement
 
 > Pour les curieux ou développeurs souhaitant contribuer :
